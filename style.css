@@ -1,0 +1,2185 @@
+body{
+    background-color: #000;
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.search{
+    color: black;
+    padding: 1.5em;
+} 
+ .search input{
+ border-radius: 7px;
+ width: 22em;
+ display: flex;
+ justify-self: center;
+padding-left: 3em;
+ outline: none;
+ border: none;
+ height: 44px;
+ font-size: 14px;
+ font-weight: 700;
+ background-color: black;
+ color: white;
+}
+ .search i{
+position: relative;
+top: 13px;
+left: -18em;
+    color: gray;
+} 
+.btn{
+    width: 83px;
+    margin-left: -10em;
+    margin-top: -1.5em;
+    height: 43px;  
+font-size: 14px;
+color: white;
+outline: none;
+border: none;
+cursor: pointer;
+border-radius: 3px solid black;
+background-color: black;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.btn1{
+    padding: 1.5em;
+    height: 2em;
+}
+.btn1 :hover{
+  background-color: gray;
+}
+ li :hover{
+color: white;
+}
+.navbar li :hover{
+    color: gray;
+    } 
+        .logo{
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        nav{
+            background-color: white;
+            position: fixed;
+            z-index: 999;
+            height: 60px;
+            width: 100%;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+        }
+        nav li{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            margin: 3px 30px;
+        }
+        nav li a{
+            text-decoration: none;
+            color:gray;
+            font-size: 18px;
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif;
+            list-style: none;
+        }
+      .checkbtn{
+        font-size: 30px;
+        color: #000;
+        float: right;
+        cursor: pointer;
+        margin: 20px;
+        display: none;
+      }
+      #check{
+        display: none;
+      }
+      @media(max-width:1100px){
+        .checkbtn{
+            display: block;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            top: 70px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav li a{
+            color: white;
+        }
+        .btn{
+            margin-left: 0em;
+        }
+        nav ul{
+            display: flex;
+            flex-direction: column;
+        }
+        nav  li{
+            margin: 30px 0;
+            line-height: 10px;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
+        .four{
+            margin-left: 0em;
+        }
+        .tree{
+            margin-left: 0em;
+        }
+        .five{
+            margin-left: 0em;
+        }
+        .six{
+            margin-left: 0em;
+        }
+      }
+header{
+    width: 100%;
+    height:auto;
+    background: url('image1.png')no-repeat;
+    background-size: cover;
+}
+.textalign{
+    text-align: center;
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p1{
+        color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+}
+.buttons{
+    display: flex;
+    height: 7em;
+    justify-content: center;
+    gap: 28px;
+    align-items: center;
+}
+.btndiscover{
+        height: 3em;
+        width: 13em;
+        border: none;
+        box-shadow: none;
+        border-radius: 10px;
+        color: #000;
+        background-color: yellow;
+        font-size: 24px;
+        font-family: math;
+        cursor: pointer;
+}
+.btnn{
+       font-size: 24px;
+       cursor: pointer;
+        height: 3em;
+        width: 9em;
+        border-color: azure;
+        border-radius: 10px;
+        background: white;
+}
+.btndiscover:hover{
+    background-color: rgb(243, 247, 59);
+}
+.btnn:hover{
+    background-color: gray;
+}
+.p2 {
+    font-size: 24px;
+    color: gray;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:11em;
+    gap: 20px;
+}
+.container img{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.see{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    color: gray;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}
+.sec{
+    background: #000;
+    display: flex;
+  justify-content: space-evenly;
+    height: 33em;
+    align-items: center;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 384px;
+    height: 23em;
+    margin: 0 20px;
+    padding: 32px 24px;
+    background: linear-gradient(180deg,#11181f,rgba(17,24,31,0));
+    border-radius: 16px;
+}
+.one img{
+    height: 191px;
+    width: 100%;
+}
+.onep{
+    font-size: 16px;
+    font-weight: 700;
+    color: #78a6b8;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading1{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.onepp{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: gray;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 384px;
+    height: 23em;
+    margin: 0 20px;
+    padding: 32px 24px;
+    background: linear-gradient(180deg,#11181f,rgba(17,24,31,0));
+    border-radius: 16px;
+}
+.two img{
+    height: 191px;
+    width: 100%;
+} 
+.twop{
+    font-size: 16px;
+    font-weight: 700;
+    color: #78a6b8;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading2{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.twopp{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: gray;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 384px;
+    height: 23em;
+    margin: 0 20px;
+    padding: 32px 24px;
+    background: linear-gradient(180deg,#11181f,rgba(17,24,31,0));
+    border-radius: 16px;
+}
+.three img{
+    
+    height: 191px;
+    width: 100%;
+}
+.threep{
+    font-size: 16px;
+    font-weight: 700;
+    color: #78a6b8;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading3{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.threepp{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+}
+.four{
+    height: 24em;
+    display: flex;
+    margin-left: 5em;
+    justify-content: center;
+}
+.movies{
+    display: flex;
+    width: 99%;
+   height: 5em;
+
+}
+.content{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.con1{
+    font-size: 24px;
+    font-weight: 900;
+    color: #eaebee;
+}
+.con2{
+    font-size: 16px;
+    font-weight: 400;
+    width: 15em;
+    padding: 43px;
+    color: #8a8d98;
+}
+.main-scroll-bar{
+    width: 80%;
+    height: 19em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.scroll-images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  gap: 20px;
+}
+.child{
+    min-width: 220px;
+    height: 300px;
+    display: flex;
+    cursor: pointer;
+}
+.scroll-images::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.child img{
+    width: 300px;
+    height:300px;
+}
+a:hover{
+    color: #fff;
+}
+.a1:hover{
+    color: #fff;
+}
+.cover{
+    width: 90%;
+    height: 100%;
+}
+
+.a1{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 400;
+    color: #78a6b8;
+}
+/* .icon{
+    color: gray;
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.iconright{
+    color: gray;
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+} */
+.tree{
+    height: 24em;
+    display: flex;
+    margin-left: 6em;
+    justify-content: center;
+}
+.tvshows{
+    height: 5em;
+}
+.tv {
+    width: 99%;
+    height: 5em;
+    display: flex;
+}
+.content2{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.con11{
+    font-size: 24px;
+    font-weight: 900;
+    color: #eaebee;
+}
+.con22{
+    width: 15em;
+    font-size: 16px;
+    padding: 43px;
+    font-weight: 400;
+    color: #8a8d98;
+}
+.main-scroll-bar-2{
+    width: 80%;
+    height: 19em;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+.cover2{
+    width: 90%;
+    height: 100%;
+}
+.scroll-images-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+}
+.child2{
+    min-width: 220px;
+    height: 300px;
+    display: flex;
+    cursor: pointer;
+}
+.scroll-images-2::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.child2 img{
+    width: 300px;
+    height:300px;
+}
+/* .icon2{
+    color: gray;
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.iconright2{
+    color: gray;
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+} */
+.a{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 400;
+    color: #78a6b8;
+}
+.tvshows h1{
+    font-weight: 900;
+    font-size:35px ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conimg{
+    background: url(dark\ matter.jpg)no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 24px;
+    width: 100%;
+    height: 680px;
+    margin-left: 20em;
+    overflow: hidden;
+}
+.main-scroll-bar-3{
+    width: 80%;
+    height: 300%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+.cover3{
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    margin: 20px;
+}
+.scroll-images-3{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+   gap: 20px;
+    scroll-behavior: smooth;
+    
+}
+.child3{
+    min-width: 220px;
+    height: 300px;
+    cursor: pointer;
+    display: flex;
+}
+.scroll-images-3::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.child3 img{
+    width: 300px;
+    height:300px;
+}
+.icon3{
+    color: gray;
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.iconright3{
+    color: gray;
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.best{
+    display: flex;
+    justify-content: center;
+    height: 50em;
+}
+.popular{
+    height: 5em;
+    display: flex;
+    justify-content: center;
+}
+.popular h1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.concon{
+    font-size: 50px;
+    color: white;
+   margin: 40px;
+    font-weight: 700;
+}
+.picks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.seeall{
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    color: #78a6b8;
+    text-decoration: none;
+  }
+  a .seeall:hover{
+      color: #fff;
+  }
+  
+.seeall{
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 700;
+   position: relative;
+   left: 22em;
+   top: -100px;
+    color: #78a6b8;
+    text-decoration: none;
+  }
+  a .seeall:hover{
+      color: #fff;
+  }
+  .movies3{
+      display: flex;
+      width: 99%;
+      height: 5em;
+  }
+   .content3{
+      height: 270px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+  }
+  .con111{
+      font-size: 24px;
+      font-weight: 900;
+      color: #eaebee;
+  }
+  .con222{
+      font-size: 16px;
+      font-weight: 400;
+      width: 15em;
+      padding: 43px;
+      color: #8a8d98;
+  }
+  .main-scroll-bar-4{
+      width: 80%;
+      height: 19em;
+      display: flex;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 2px;
+  }
+  .five{
+    height: 30em;
+    margin-left: 6em;
+  }
+  .cover4{
+      width: 90%;
+      height: 100%;
+  }
+  .scroll-images-4{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: left;
+      align-items: center; 
+     gap: 20px;
+  }
+  .child4{
+      min-width: 220px;
+      height: 300px;
+      cursor: pointer;
+      display: flex;
+  }
+  .scroll-images-4::-webkit-scrollbar{
+      -webkit-appearance: none;
+  }
+  .child4 img{
+      width: 300px;
+      height:300px;
+  }
+  .a2{
+      text-decoration: none;
+      font-size: 20px;
+      color: #78a6b8;
+      font-weight: 400;
+  } 
+  .a2:hover{
+      color: #fff;
+  }
+  
+  /* .icon4{
+      color: gray;
+      background-color: black;
+      font-size: 50px;
+      outline: none;
+      border: none;
+      padding: 0 20px;
+      cursor: pointer;
+  }
+  .iconright4{
+      color: gray;
+      background-color: black;
+      font-size: 50px;
+      outline: none;
+      border: none;
+      padding: 0 20px;
+      cursor: pointer;
+  } */
+  .movies4{
+    display: flex;
+    width: 100%;
+    height: 5em;
+    
+}
+ .content4{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.con1111{
+    font-size: 20px;
+    font-weight: 900;
+    color: #eaebee;
+}
+.con2222{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8a8d98;
+    width: 15em;
+    padding: 43px;
+}
+.main-scroll-bar-5{
+    width: 79%;
+    height: 19em;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+.cover5{
+    width: 90%;
+    height: 100%;
+}
+.six{
+    height: 22em;
+    margin-left: 6em;
+}
+.scroll-images-5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   gap: 20px;
+}
+.child5{
+    min-width: 220px;
+    height: 300px;
+    cursor: pointer;
+    display: flex;
+}
+.scroll-images-5::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.child5 img{
+    width: 300px;
+    height:300px;
+}
+.a3{
+    text-decoration: none;
+    font-size: 16px;
+    color: #78a6b8;
+    font-weight: 400;
+} 
+.a3:hover{
+    color: #fff;
+}
+.icon5{
+    color: gray;
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.iconright5{
+    color: gray;
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.newone1{
+    height: 4em;
+    font-size: 50px;
+    font-weight: 100;
+    color: #fff; 
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+gap: 5px;
+}
+.log1{
+width: 100%;
+height: 8em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.seven{
+    height: 32em;
+}
+.b{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log1 img{
+   width: 100%;
+    height: 68px;
+    align-items: center;
+    justify-content: center; 
+}
+.but{  
+    width: 350px;
+    border: none;
+    height: 70px;
+    border-radius: 8px;
+    background-color: yellow;
+    font-size: 23px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.but:hover{
+   background-color:rgb(82, 82, 14);
+ }
+ .head{
+    height: 3em;
+ }
+.head1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.last2 {
+    display: flex;
+    height: 29em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.last22{
+    color: white;
+    font-size: 27px;
+}
+.last222{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(103, 158, 180);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.states{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+height: 29em;
+}
+.country{
+    display: flex;
+    flex-direction: column;
+}
+.country2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.country3{
+    display: flex;
+    flex-direction: column;
+}
+.last3{
+color: white;
+font-size: 27px;
+}
+.last33{
+       cursor: pointer;
+       text-decoration: none;
+       color: rgb(103, 158, 180) ;
+       font-size: 22px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+
+.last4 {
+    color: white;
+    font-size: 27px;
+}
+.last44{
+    cursor: pointer;
+       text-decoration: none;
+       color: rgb(103, 158, 180) ;
+       font-size: 22px;
+       display: flex;
+       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.lasts{
+    color: white;
+    font-size: 27px;
+    }
+
+.lasti{
+       cursor: pointer;
+       text-decoration: none;
+       color: rgb(103, 158, 180) ;
+       font-size: 22px;
+       display: flex;
+       flex-direction: column;
+}
+.lastr{
+    color: white;
+    font-size: 27px;
+}
+.lastaf{
+      cursor: pointer;
+       text-decoration: none;
+       color: rgb(103, 158, 180) ;
+       font-size: 22px;
+       display: flex;
+       flex-direction: column;
+      
+}
+.pa{
+    color: white;
+    font-size: 27px;
+} 
+.pac{
+          cursor: pointer;
+       text-decoration: none;
+       color: rgb(103, 158, 180) ;
+       font-size: 22px;
+       display: flex;
+       flex-direction: column;
+} 
+.lastmi{
+    color: white;
+    font-size: 27px;
+}
+.lastmid{
+     cursor: pointer;
+       text-decoration: none;
+       color: rgb(103, 158, 180) ;
+       font-size: 22px;
+       display: flex;
+       flex-direction: column;
+}
+@media(max-width:860px){
+    .navbar{
+        display: none;
+    }
+    .conimg{
+        margin-left: 2em;
+    }
+    .mubi{
+        display: none;
+    }
+    .season{
+        display: none;
+    }
+    .zee{
+        display: none;
+    }
+    .textalign{
+        height: 7em;
+        font-size: 35px;
+    }
+    .container img{
+        width: 60px;
+        height: 60px;
+    }
+    .four{
+        margin-left: 0em;
+    }
+    .tree{
+        margin-left: 0em;
+    }
+    .five{
+        margin-left: 0em;
+    }
+    .six{
+        margin-left: 0em;
+    }
+}
+@media(max-width:620px){
+    .navbar{
+        display: none;
+    }
+    .textalign{
+        font-size: 35px;
+        height: 6em;
+    }
+    .p1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .btndiscover {
+        width: 15em;
+        height: 3em;
+        font-size: 15px;
+        border-radius: 7px;
+    }
+        .btnn {
+            width: 10em;
+            border-radius: 7px;
+            font-size: 15px;
+            height: 3em;
+        }
+    .p2{
+        font-size: 20px;
+    }
+    .container{
+        gap: 5px;
+    }
+    .container img{
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+    }
+    .mubi{
+        display: none;
+    }
+    .see{
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+    .second{
+        height: 72em;
+    }
+    .sec{
+        height: 56em;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+    .one{
+       margin-left: 4em;
+    }
+    .one img{
+        width: 12em;
+        height: 12em;
+    }
+    .onep{
+        font-size: 12px;
+    }
+    .heading1{
+        font-size: 15px;
+    }
+    .onepp{
+        font-size: 14px;
+    }
+    .two{
+      margin-left: 4em;
+    }
+    .two img{
+        width: 12em;
+        height: 12em;
+    }
+    .twop{
+        font-size: 12px;
+    }
+    .heading2{
+        font-size: 15px;
+    }
+    .twopp{
+        font-size: 14px;
+    }
+    .three{
+      margin-left: 4em;
+    }
+    .three img{
+        width: 12em;
+        height: 12em;
+    }
+    .threep{
+        font-size: 12px;
+    }
+    .heading3{
+        font-size: 15px;
+    }
+    .threepp{
+        font-size: 14px;
+    }
+    .content{
+        height: 7em;
+    }
+    .con1{
+        font-size: 18px;
+    }
+    .con2{
+        font-size: 12px;
+        text-align: center;
+        padding: 1px;
+    }
+    .a1{
+        font-size: 12px;
+    }
+    .child{
+       min-width: 115px;
+       height: 150px;
+    }
+    .child img{
+        height: 130px;
+        width: 130px;
+    }
+    .scroll-images{
+        gap: 10px;
+    }
+    .main-scroll-bar{
+        height: 8em;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .cover{
+        width: 12em;
+    }
+    .four{
+        height: 12em;
+        margin-left: 1em;
+    }
+    .tvshows h1{
+        font-size: 30px;
+    }
+    .content2{
+        height: 7em;
+    }
+    .con11{
+        font-size: 18px;
+    }
+    .con22{
+        font-size: 12px;
+        text-align: center;
+        padding: 1px;
+    }
+    .a{
+        font-size: 12px;
+    }
+    .tree{
+        margin-left: 1em;
+        height: 10em;
+    }
+    .child2{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child2 img{
+         height: 130px;
+         width: 130px;
+     }
+     .scroll-images-2{
+         gap: 10px;
+     }
+     .main-scroll-bar-2{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover2{
+         width: 12em;
+     }
+     .coning{
+        width: 22em;
+        height: 24em;
+     }
+     .concon{
+        font-size: 24px;
+     }
+     .child3{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child3 img{
+         height: 130px;
+         width: 130px;
+     }
+     .scroll-images-3{
+         gap: 10px;
+     }
+     .main-scroll-bar-3{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover3{
+         width: 25em;
+     }
+     .best{
+        height: 27em;
+     }
+   
+     .five{
+        margin-left: 1em;
+        height: 15em;
+    }
+    .content3{
+        height: 7em;
+    }
+    .con111{
+        font-size: 18px;
+    }
+    .con222{
+        font-size: 12px;
+        text-align: center;
+        padding: 1px;
+    }
+    .popular h1{
+        font-size: 30px;
+    }
+    .a2{
+        font-size: 12px;
+    }
+    .child4{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child4 img{
+         height: 130px;
+         width: 130px;
+     }
+     .scroll-images-4{
+         gap: 10px;
+     }
+     .main-scroll-bar-4{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover4{
+         width: 12em;
+     }
+     .six{
+        margin-left: 1em;
+        height: 9em;
+    }
+    .conimg{
+        height: 25em; margin-left: 1em;
+    }
+    .content4{
+        height: 7em;
+    }
+    .con1111{
+        font-size: 18px;
+    }
+    .con2222{
+        font-size: 12px;
+        text-align: center;
+        padding: 1px;
+    }
+    .a3{
+        font-size: 12px;
+    }
+    .child5{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child5 img{
+         height: 130px;
+         width: 130px;
+     }
+     .scroll-images-5{
+         gap: 10px;
+     }
+     .main-scroll-bar-5{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover5{
+         width: 12em;
+     }
+     .newone1{
+        font-size: 25px;
+     }
+     .log1 img{
+        height: 60px;
+        width: 60px;
+     }
+     .but{
+        font-size: 18px;
+        height: 3em;
+        width: 14em;
+        border-radius: 9px;
+    }
+    .seven{
+        height: 20em;
+    }
+    .head1{
+        font-size: 25px;
+    }
+    .last2{
+        height: 20em;
+    }
+    .last22{
+        font-size: 18px;
+        margin-left: 0em;
+    }
+    .last222{
+        font-size: 15px;
+    }
+    .last3{
+        font-size: 18px;
+    }
+    .last33{
+        font-size: 15px;
+    }
+    .states{
+        height: 20em;
+    }
+    .last4{
+        font-size: 18px;
+    }
+    .last44{
+        font-size: 15px;
+    }
+    .country{
+        height: 20em;
+    }
+    header {
+        height: 32em;
+    }
+    .lasts{
+        font-size: 18px;
+    }
+    .lasti{
+        font-size: 15px;
+    }
+    .country2{
+        height: 20em;
+    }
+    .lastr{
+        font-size: 18px;
+    }
+    .lastaf{
+        font-size: 15px;
+    }
+    .country3{
+        height: 24em;
+    }
+    .pa{
+        font-size: 18px;
+    }
+    .pac{
+        font-size: 15px;
+    }
+    .lastmi{
+        font-size: 18px;
+    }
+    .lastmid{
+        font-size: 15px;
+    }   
+}
+@media(max-width:480px){
+    .navbar{
+        display: none;
+    }
+    .textalign{
+        font-size: 30px;
+        height: 7em;
+    }
+    .p1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .btndiscover {
+        width: 15em;
+        height: 3em;
+        font-size: 15px;
+        border-radius: 7px;
+    }
+    .conimg{
+        margin-left: 1em;
+    }
+        .btnn {
+            width: 10em;
+            border-radius: 7px;
+            font-size: 15px;
+            height: 3em;
+        }
+    .p2{
+        font-size: 20px;
+    }
+    .container{
+        gap: 5px;
+    }
+    .container img{
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+    }
+    .mubi{
+        display: none;
+    }
+    .see{
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+    .second{
+        height: 73em;
+    }
+    .sec{
+        height: 56em;
+        gap: 1em;
+    }
+    .one{
+       margin-left: 3em;
+    }
+    .one img{
+        width: 12em;
+        height: 12em;
+    }
+    .onep{
+        font-size: 12px;
+    }
+    .heading1{
+        font-size: 15px;
+    }
+    .onepp{
+        font-size: 14px;
+    }
+    .two{
+      margin-left: 3em;
+    }
+    .two img{
+        width: 12em;
+        height: 12em;
+    }
+    .twop{
+        font-size: 12px;
+    }
+    .heading2{
+        font-size: 15px;
+    }
+    .twopp{
+        font-size: 14px;
+    }
+    .three{
+      margin-left: 3em;
+    }
+    .three img{
+        width: 12em;
+        height: 12em;
+    }
+    .threep{
+        font-size: 12px;
+    }
+    .heading3{
+        font-size: 15px;
+    }
+    .threepp{
+        font-size: 14px;
+    }
+    .content{
+        height: 7em;
+    }
+    .con1{
+        font-size: 18px;
+    }
+    .con2{
+        font-size: 12px;
+        text-align: center;
+        padding: 1px;
+    }
+    .a1{
+        font-size: 12px;
+    }
+    .child{
+       min-width: 115px;
+       height: 150px;
+    }
+    .child img{
+        height: 130px;
+        width: 130px;
+    }
+    .scroll-images{
+        gap: 10px;
+    }
+    .main-scroll-bar{
+        height: 8em;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .cover{
+        width: 12em;
+    }
+    .four{
+        height: 12em;
+        margin-left: 1em;
+    }
+    .tvshows h1{
+        font-size: 30px;
+    }
+    .content2{
+        height: 7em;
+    }
+    .con11{
+        font-size: 18px;
+    }
+    .con22{
+        font-size: 12px;
+        text-align: center;
+        padding: 1px;
+    }
+    .a{
+        font-size: 12px;
+    }
+    .tree{
+        margin-left: 1em;
+        height: 10em;
+    }
+    .child2{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child2 img{
+         height: 130px;
+         width: 130px;
+     }
+     .scroll-images-2{
+         gap: 10px;
+     }
+     .main-scroll-bar-2{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover2{
+         width: 12em;
+     }
+     .coning{
+        width: 22em;
+        height: 24em;
+     }
+     .concon{
+        font-size: 24px;
+     }
+     .child3{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child3 img{
+         height: 130px;
+         width: 130px;
+     }
+     .scroll-images-3{
+         gap: 10px;
+     }
+     .main-scroll-bar-3{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover3{
+         width: 20em;
+     }
+     .best{
+        height: 27em;
+     }
+   
+     .five{
+        margin-left: 1em;
+        height: 15em;
+    }
+    .content3{
+        height: 7em;
+    }
+    .con111{
+        font-size: 18px;
+    }
+    .con222{
+        font-size: 12px;
+        text-align: center;
+        padding: 1px;
+    }
+    .popular h1{
+        font-size: 30px;
+    }
+    .a2{
+        font-size: 12px;
+    }
+    .child4{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child4 img{
+         height: 130px;
+         width: 130px;
+     }
+     .scroll-images-4{
+         gap: 10px;
+     }
+     .main-scroll-bar-4{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover4{
+         width: 12em;
+     }
+     .six{
+        margin-left: 1em;
+        height: 9em;
+    }
+    .conimg{
+        height: 25em;
+    }
+    .content4{
+        height: 7em;
+    }
+    .con1111{
+        font-size: 18px;
+    }
+    .con2222{
+        font-size: 12px;
+        text-align: center;
+        padding: 1px;
+    }
+    .a3{
+        font-size: 12px;
+    }
+    .child5{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child5 img{
+         height: 130px;
+         width: 130px;
+     }
+     .scroll-images-5{
+         gap: 10px;
+     }
+     .main-scroll-bar-5{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover5{
+         width: 12em;
+     }
+     .newone1{
+        font-size: 25px;
+     }
+     .log1 img{
+        height: 60px;
+        width: 60px;
+     }
+     .but{
+        font-size: 18px;
+        height: 3em;
+        width: 14em;
+        border-radius: 9px;
+    }
+    .seven{
+        height: 22em;
+    }
+    .head1{
+        font-size: 25px;
+    }
+    .last2{
+        margin-left: 30px;
+        height: 21em;
+    }
+    .last22{
+        font-size: 18px;
+    }
+    .last222{
+        font-size: 15px;
+    }
+    .last3{
+        font-size: 18px;
+    }
+    .last33{
+
+        font-size: 15px;
+    }
+    .states{
+        height: 21.5em;
+    }
+    .last4{
+        font-size: 18px;
+    }
+    .last44{
+        font-size: 15px;
+    }
+    .country{
+        height: 22em;
+    }
+    header {
+        height: 32em;
+        margin-bottom: 30px;
+    }
+    .lasts{
+        font-size: 18px;
+    }
+    .lasti{
+        font-size: 15px;
+    }
+    .country2{
+        height: 22.5em;
+    }
+    .lastr{
+        font-size: 18px;
+    }
+    .lastaf{
+        font-size: 15px;
+    }
+    .country3{
+        height: 24em;
+    }
+    .pa{
+        font-size: 18px;
+    }
+    .pac{
+        font-size: 15px;
+    }
+    .lastmi{
+        font-size: 18px;
+    }
+    .lastmid{
+        font-size: 15px;
+    }   
+}
+@media(max-width:360px){
+    .navbar{
+        display: none;
+    }
+    .textalign{
+        font-size: 24px;
+        height: 10em;
+    }
+    .p1{
+        font-size: 12px;
+        text-align: center;
+    }
+    .btndiscover {
+        width: 10em;
+        height: 3em;
+        font-size: 10px;
+        border-radius: 4px;
+    }
+        .btnn {
+            width: 9em;
+            border-radius: 4px;
+            font-size: 10px;
+            height: 3em;
+        }
+    .p2{
+        font-size: 12px;
+    }
+    .container{
+        gap: 5px;
+    }
+    .container img{
+        width: 30px;
+        height: 30px;
+        border-radius: 2px;
+    }
+    .mubi{
+        display: none;
+    }
+    .see{
+        width: 30px;
+        height: 30px;
+        border-radius: 2px;
+        font-size: 8px;
+    }
+    .second{
+        height: 66em;
+    }
+    .sec{
+        flex-wrap: wrap;
+        height: 56em;
+        gap: 1em;
+    }
+    .one{
+        margin: 0;
+        padding: 0px 25px 0px 47px;
+    }
+    .one img{
+        width: 12em;
+        height: 12em;
+    }
+    .onep{
+        font-size: 10px;
+    }
+    .heading1{
+        font-size: 12px;
+    }
+    .onepp{
+        font-size: 14px;
+    }
+    .two{
+        margin: 0;
+        padding: 0px 25px 0px 47px;
+    }
+    .two img{
+        width: 12em;
+        height: 12em;
+    }
+    .twop{
+        font-size: 10px;
+    }
+    .heading2{
+        font-size: 12px;
+    }
+    .twopp{
+        font-size: 14px;
+    }
+    .three{
+        margin: 0;
+        padding: 0px 25px 0px 47px;
+    }
+    .three img{
+        width: 12em;
+        height: 12em;
+    }
+    .threep{
+        font-size: 10px;
+    }
+    .heading3{
+        font-size: 12px;
+    }
+    .threepp{
+        font-size: 14px;
+    }
+    .content{
+        height: 7em;
+    }
+    .con1{
+        font-size: 12px;
+    }
+    .con2{
+        font-size: 8px;
+        text-align: center;
+        padding: 1px;
+    }
+    .a1{
+        font-size: 8px;
+    }
+    .child{
+       min-width: 115px;
+       height: 150px;
+    }
+    .child img{
+        height: 110px;
+        width: 110px;
+    }
+    .scroll-images{
+        gap: 0px;
+    }
+    .main-scroll-bar{
+        height: 8em;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .cover{
+        width: 12em;
+    }
+    .four{
+        height: 12em;
+        margin-left: 1em;
+    }
+    .tvshows h1{
+        font-size: 16px;
+    }
+    .content2{
+        height: 7em;
+    }
+    .con11{
+        font-size:12px ;
+    }
+    .con22{
+        font-size: 8px;
+        text-align: center;
+        padding: 1px;
+    }
+    .a{
+        font-size: 8px;
+    }
+    .tree{
+        margin-left: 1em;
+        height: 10em;
+    }
+    .child2{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child2 img{
+         height: 110px;
+         width: 110px;
+     }
+     .scroll-images-2{
+         gap: 0px;
+     }
+     .main-scroll-bar-2{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover2{
+         width: 12em;
+     }
+     .coning{
+        width: 22em;
+        height: 24em;
+     }
+     .concon{
+        font-size: 12px;
+     }
+     .child3{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child3 img{
+         height: 110px;
+         width: 110px;
+     }
+     .scroll-images-3{
+         gap: 0px;
+     }
+     .main-scroll-bar-3{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover3{
+         width: 20em;
+     }
+     .best{
+        height: 27em;
+     }
+   
+     .five{
+        margin-left: 1em;
+        height: 15em;
+    }
+    .content3{
+        height: 7em;
+    }
+    .con111{
+        font-size: 12px;
+    }
+    .con222{
+        font-size: 8px;
+        text-align: center;
+        padding: 1px;
+    }
+    .popular h1{
+        font-size: 12px;
+    }
+    .a2{
+        font-size: 8px;
+    }
+    .child4{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child4 img{
+         height: 110px;
+         width: 110px;
+     }
+     .scroll-images-4{
+         gap: 0px;
+     }
+     .main-scroll-bar-4{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover4{
+         width: 12em;
+     }
+     .six{
+        margin-left: 1em;
+        height: 9em;
+    }
+    .conimg{
+        height: 25em;
+    }
+    .content4{
+        height: 7em;
+    }
+    .con1111{
+        font-size: 12px;
+    }
+    .con2222{
+        font-size: 8px;
+        text-align: center;
+        padding: 1px;
+    }
+    .a3{
+        font-size: 8px;
+    }
+    .child5{
+        min-width: 115px;
+        height: 150px;
+     }
+     .child5 img{
+         height: 110px;
+         width: 110px;
+     }
+     .scroll-images-5{
+         gap: 0px;
+     }
+     .main-scroll-bar-5{
+         height: 8em;
+         overflow-x: scroll;
+         overflow-y: hidden;
+     }
+     .cover5{
+         width: 12em;
+     }
+     .newone1{
+        font-size: 15px;
+     }
+     .log1 img{
+        height: 35px;
+        width: 35px;
+     }
+     .but{
+        font-size: 12px;
+        height: 3em;
+        width: 14em;
+        border-radius: 5px;
+    }
+    .seven{
+        height: 18em;
+    }
+    .head1{
+        font-size: 20px;
+    }
+    .last2{
+        height: 19em;
+    }
+    .last22{
+        font-size: 16px;
+        margin-left: 0em;
+    }
+    .last222{
+        font-size: 12px;
+    }
+    .last3{
+        font-size: 16px;
+    }
+    .last33{
+        font-size: 12px;
+    }
+    .states{
+        height: 19em;
+    }
+    .last4{
+        font-size: 16px;
+    }
+    .last44{
+        font-size: 12px;
+    }
+    .country{
+        height: 22em;
+    }
+    header {
+        height: 35em;
+    }
+    .lasts{
+        font-size: 16px;
+    }
+    .lasti{
+        font-size: 12px;
+    }
+    .country2{
+        height: 21em;
+    }
+    .lastr{
+        font-size: 16px;
+    }
+    .lastaf{
+        font-size: 12px;
+    }
+    .country3{
+        height: 24em;
+    }
+    .pa{
+        font-size: 16px;
+    }
+    .pac{
+        font-size: 12px;
+    }
+    .lastmi{
+        font-size: 16px;
+    }
+    .lastmid{
+        font-size: 12px;
+    }
+}
